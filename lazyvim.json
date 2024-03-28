@@ -12,12 +12,13 @@
     "lazyvim.plugins.extras.lang.tex",
     "lazyvim.plugins.extras.lang.typescript",
     "lazyvim.plugins.extras.lang.yaml",
+    "lazyvim.plugins.extras.ui.edgy",
     "lazyvim.plugins.extras.util.gitui",
     "lazyvim.plugins.extras.util.project",
     "lazyvim.plugins.extras.vscode"
   ],
   "news": {
-    "NEWS.md": "2850"
+    "NEWS.md": "2943"
   },
   "version": 3
 }
