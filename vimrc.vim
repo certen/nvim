@@ -1,3 +1,5 @@
+set termguicolors
+
 nnoremap <A-j> :m+<CR>==
 nnoremap <A-k> :m-2<CR>==
 inoremap <A-j> <Esc>:m+<CR>==gi
