@@ -19,9 +19,8 @@ return {
   },
   {
     "epwalsh/obsidian.nvim",
-    version = "*", -- recommended, use latest release instead of latest commit
+    version = "3.7.7", -- recommended, use latest release instead of latest commit
     lazy = true,
-    ft = "markdown",
     -- Replace the above line with this if you only want to load obsidian.nvim for markdown files in your vault:
     -- event = {
     --   -- If you want to use the home shortcut '~' here you need to call 'vim.fn.expand'.
@@ -32,22 +31,31 @@ return {
     dependencies = {
       -- Required.
       "nvim-lua/plenary.nvim",
-
       -- see below for full list of optional dependencies 👇
     },
+
     opts = {
       workspaces = {
         {
           name = "personal",
           path = "~/Documents/myvault",
         },
-        {
-          name = "work",
-          path = "~/vaults/work",
-        },
       },
 
       -- see below for full list of options 👇
+    },
+  },
+  {
+    "epwalsh/pomo.nvim",
+    version = "*", -- Recommended, use latest release instead of latest commit
+    lazy = true,
+    cmd = { "TimerStart", "TimerRepeat" },
+    dependencies = {
+      -- Optional, but highly recommended if you want to use the "Default" timer
+      "rcarriga/nvim-notify",
+    },
+    opts = {
+      -- See below for full list of options 👇
     },
   },
   {
