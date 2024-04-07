@@ -40,6 +40,10 @@ return {
           name = "myvault",
           path = "~/Documents/myvault",
         },
+        {
+          name = "myvault2",
+          path = "~/Sync/obsidian",
+        },
       },
 
       -- see below for full list of options 👇
