@@ -38,10 +38,6 @@ return {
       workspaces = {
         {
           name = "myvault",
-          path = "~/Documents/myvault",
-        },
-        {
-          name = "myvault2",
           path = "~/Sync/obsidian",
         },
       },
