@@ -18,6 +18,23 @@ return {
     },
   },
   {
+    "neovim/nvim-lspconfig",
+    --  config = function()
+    --    local lsp_on_attach = function(client, bufnr)
+    --      local bufopts = { noremap = true, silent = true, buffer = bufnr }
+    --      vim.keymap.set("n", "<leader>a", vim.diagnostic.open_float, bufopts)
+    --    end
+    --  end,
+    opts = {
+      inlay_hints = {
+        enabled = true,
+      },
+      codelens = {
+        enabled = true,
+      },
+    },
+  },
+  {
     "epwalsh/obsidian.nvim",
     version = "*", -- recommended, use latest release instead of latest commit
     lazy = false,
