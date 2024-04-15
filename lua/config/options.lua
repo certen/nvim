@@ -3,3 +3,4 @@
 -- Add any additional options here
 vim.wo.wrap = true
 --vim.wo.relativenumber = false
+vim.wo.scrolloff = 5

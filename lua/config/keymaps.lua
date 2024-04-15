@@ -9,3 +9,6 @@ map("n", "<C-f>", "<C-f>zz", { desc = "Center forward" })
 
 map("n", "<C-A>", "$", { desc = "Go to end" })
 map("n", "<C-I>", "_", { desc = "Go to beginning" })
+
+-- map("n", "n", "nzz", { desc = "Centre search results" })
+-- map("n", "N", "Nzz", { desc = "Centre search result" })
